@@ -1,3 +1,15 @@
+# Ignore all markdown files except README.md
+*.md
+!README.md
+
+# Ignore specific folders
+.kiro/
+_/apps/mobile/
+
+# Ignore everything except web folder
+_/apps/*
+!_/apps/web/
+
 # Dependencies
 node_modules/
 npm-debug.log*
